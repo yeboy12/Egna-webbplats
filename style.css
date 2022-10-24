@@ -1,0 +1,119 @@
+body{
+    background-color:#0400ff3f 
+}
+
+
+.wrapper{
+    width: 101%;
+    display:grid;
+    grid-template-rows:100px 50px auto 80px;
+    grid-template-columns: 2fr;
+    grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+    background-color:rgb(71, 203, 255);
+    color: rgb(193, 3, 72);
+   
+    
+}
+tycker .wrapper{
+   
+    background-color:rgb(72, 234, 255);
+    color: rgb(245, 0, 0);
+       
+}
+
+varförp .wrapper{
+   
+    background-color:rgb(71, 203, 255);
+    color: rgb(255, 0, 0);
+       
+}
+img{
+    border-radius: 4px;
+    width: 500px;
+}
+
+
+header{
+    grid-area:header;
+}
+h1{
+    text-align:center;
+    color:rgb(255, 0, 0);
+    text-decoration:underline;
+    font-size: 40px ;
+      border: 1px solid rgb(25, 0, 255);
+      border-radius: 100px;
+      border-width: 3px;
+      border-bottom-color: aqua;
+      border-top-color: red;
+      background-color: rgb(25, 0, 255);
+      
+}
+
+h2{
+    color:rgb(19, 83, 138);
+    text-decoration:overline;
+    
+}
+p{
+    border: 1px solid rgb(247, 14, 14);
+    border-style:groove;
+}
+.favoritspel {
+    text-decoration: none;
+     border: none;
+     color: rgb(255, 0, 0);
+}
+
+nav a{
+    text-decoration:none; 
+    color:rgb(255, 0, 0);
+    border: 1px solid rgb(110, 91, 91);
+    border: 1px solid rgb(55, 0, 255);
+      border-radius: 100px;
+      border-width: 3px;
+      border-bottom-color:green;
+      border-top-color:white;
+      background-color: rgb(28, 31, 31);
+    
+    
+}
+a{
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    color: rgb(255, 0, 0);
+     
+    
+    
+}
+
+nav{
+    grid-area:nav;
+    
+}
+nav>ul {
+    display:grid;
+    grid-template-columns: 8fr 2fr 1fr;
+    list-style-type:none;
+}
+
+table, th td{
+    height: 100px;
+    width: 300px;
+    border: 3px solid rgb(17, 0, 255);
+    
+    
+
+   
+}
+
+
+main{
+    grid-area:main;
+}
+    
